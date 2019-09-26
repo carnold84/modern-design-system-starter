@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Button 1`] = `
+<button
+  className="sc-bdVaJa cutXAD"
+  disabled={false}
+>
+  Test
+</button>
+`;
+
+exports[`Renders Disabled Button 1`] = `
+<button
+  className="sc-bdVaJa cutXAD"
+  disabled={true}
+>
+  Test
+</button>
+`;
+
+exports[`Renders Primary Button 1`] = `
+<button
+  className="is-primary sc-bdVaJa cutXAD"
+  disabled={false}
+>
+  Test
+</button>
+`;
