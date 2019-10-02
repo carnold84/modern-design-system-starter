@@ -1,7 +1,7 @@
 {
   "name": "modern-design-system-starter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Chris <chris.wittyname@gmail.com>",
   "license": "MIT",
   "scripts": {
