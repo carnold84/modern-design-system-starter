@@ -5,7 +5,7 @@
   "author": "Chris <chris.wittyname@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm run clean && cross-env NODE_ENV=production babel src --out-dir lib",
+    "build": "npm run test && npm run clean && cross-env NODE_ENV=production babel src --out-dir lib",
     "clean": "rimraf lib",
     "storybook": "start-storybook",
     "test": "cross-env NODE_ENV=test jest"

@@ -13,7 +13,11 @@ Starter kit for building a modern, modular, React design system.
 
 ## Install
 
-[Yarn](https://yarnpkg.com/) is the default package manager, but you can use [NPM](https://www.npmjs.com/) if you want. It's recommended that you don't mix the two though as it can cause problems. It's also recommended that you delete the yarn.lock file before run NPM install.
+1. Clone or download the `Modern Design System Starter` repository.
+2. Run `yarn` or `npm install` (see below) to install dependencies.
+3. Customise to your heart's content!
+
+[Yarn](https://yarnpkg.com/) is the default package manager, but you can use [NPM](https://www.npmjs.com/) if you want. It's recommended that you don't mix the two though as it can cause problems. It's also recommended that you delete the yarn.lock file before running NPM install.
 
 ## Scripts
 
