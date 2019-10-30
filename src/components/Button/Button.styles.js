@@ -8,11 +8,11 @@ export const Wrapper = styled.button`
   color: ${props => props.theme.components.button.color};
   cursor: pointer;
   display: inline-flex;
-  font-size: 1rem;
-  height: 40px;
+  font-size: 1em;
+  line-height: 1.2em;
   justify-content: center;
   outline: transparent solid 2px;
-  padding: 0 15px;
+  padding: 10px 15px 9px;
   transition: all 200ms ease-in-out;
 
   a {

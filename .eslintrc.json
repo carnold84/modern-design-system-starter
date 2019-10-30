@@ -1,17 +1,19 @@
 {
   "extends": ["react-app"],
 
-  "plugins": ["prettier"],
-
   "rules": {
-    "prettier/prettier": [
+    "comma-dangle": [
       "error",
       {
-        "trailingComma": "es5",
-        "singleQuote": true,
-        "printWidth": 120,
-        "tabWidth": 2
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
       }
-    ]
+    ],
+    "curly": "error",
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single"]
   }
 }

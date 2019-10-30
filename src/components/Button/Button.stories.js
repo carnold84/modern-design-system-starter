@@ -19,7 +19,9 @@ export const allButtons = () => {
       </Button>
 
       <Button isDisabled={true} onClick={() => alert('Click!')}>
-        Button
+        Button <br />
+        Disabled <br />
+        Multi-line
       </Button>
     </div>
   );
