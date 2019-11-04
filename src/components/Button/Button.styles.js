@@ -8,6 +8,7 @@ export const Wrapper = styled.button`
   color: ${props => props.theme.components.button.color};
   cursor: pointer;
   display: inline-flex;
+  font-family: ${props => props.theme.components.button.fontFamily};
   font-size: 1em;
   line-height: 1.2em;
   justify-content: center;
@@ -99,6 +100,7 @@ Wrapper.defaultProps = {
         bgColor: '#ffffff',
         borderColor: '#dbdbdb',
         color: '#666666',
+        fontFamily: '"Open Sans", Helvetica, Arial, sans-serif',
         primary: {
           _focus: {
             bgColor: '#7f226b',

@@ -1,13 +1,12 @@
-import {createGlobalStyle, css} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-export const fontUrl = 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900';
-
-export const bodyStyles = css`
-  font-size: 14px;
-`;
+export const fontUrl = 'https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap';
 
 export const GlobalStyle = createGlobalStyle`
- body {
-   ${bodyStyles}
- }
+  @import url(${fontUrl});
+
+  body {
+  font-family: '"Open Sans", Helvetica, Arial, sans-serif';
+  font-size: 14px;
+  }
 `;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {addDecorator, configure} from '@storybook/react';
+import {addDecorator, configure, addParameters} from '@storybook/react';
 import {withThemes} from 'storybook-styled-components';
 
 import defaultTheme from '../src/themes/default';
@@ -11,7 +11,6 @@ const themes = {
   'Default Dark Theme': defaultDarkTheme,
 };
 
-// now add the decorator
 addDecorator(withThemes(themes));
 addDecorator(story => (
   <>

@@ -13,6 +13,8 @@ const colors = {
   theme8: '#aaaaaa',
 };
 
+const fontFamily = '"Open Sans", Helvetica, Arial, sans-serif';
+
 const text = {
   theme1: '#222222',
   theme2: '#444444',
@@ -40,6 +42,7 @@ const theme = {
       bgColor: colors.theme1,
       borderColor: colors.theme4,
       color: text.theme3,
+      fontFamily,
       primary: {
         _focus: {
           bgColor: colors.primary1,
